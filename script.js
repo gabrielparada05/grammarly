@@ -1,4 +1,4 @@
-import * as Grammarly from "@grammarly/editor-sdk";
+import * as Grammarly from "./package-lock.json";
 
 await Grammarly.init("client_MwkwrPLsbt9oTavevWb2dF");
 
