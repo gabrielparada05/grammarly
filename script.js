@@ -1,8 +1,8 @@
 import * as Grammarly from "./package-lock.json";
 
- Grammarly.init("client_MwkwrPLsbt9oTavevWb2dF");
+Grammarly.init("client_MwkwrPLsbt9oTavevWb2dF");
 
-grammarly.addPlugin(
-    document.querySelector("textarea"),
-    { documentDialect: "british" },
-  );
+Grammarly.addPlugin(
+  document.querySelector("textarea"),
+  { documentDialect: "british" },
+);
