@@ -1,5 +1,7 @@
  // Create a classic editor instance
- const editor =  ClassicEditor.create(
+ import * as Grammarly from "./package-lock.json";
+ 
+ const editor =  ClassicEditor.create(     //await delete before classic
     document.getElementById("textarea")
   );
 
@@ -11,7 +13,7 @@
     });
   });
 
-  /*import * as Grammarly from "./package-lock.json";
+  /*
 
 await Grammarly.init("client_MwkwrPLsbt9oTavevWb2dF");
 
