@@ -1,5 +1,5 @@
  // Create a classic editor instance
- const editor = await ClassicEditor.create(
+ const editor =  ClassicEditor.create(
     document.getElementById("textarea")
   );
 
